@@ -8,6 +8,7 @@ body {
 	border-style:dotted;
 }*/
 
+
 /* base class */
 .hovereffect {
   width: 160px;
@@ -17,6 +18,7 @@ body {
   position: relative;
   text-align: center;
   cursor: default;
+  background-color:red;
 }
 
 /* contents which appear on hover */
