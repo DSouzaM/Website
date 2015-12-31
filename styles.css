@@ -18,7 +18,6 @@ body {
   position: relative;
   text-align: center;
   cursor: default;
-  background-color:red;
 }
 
 /* contents which appear on hover */
@@ -92,11 +91,16 @@ body {
 /* square border which appears on hover */
 .hovereffect .overlay:before {
   position: absolute;
-  top: 3px;
-  right: 3px;
-  bottom: 3px;
-  left: 3px;
-  border: 1px solid #fff;
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+  border-left: 1px;
+  border-top: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #fff;
   content: '';
   opacity: 0;
   filter: alpha(opacity=0);
