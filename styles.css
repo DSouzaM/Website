@@ -5,7 +5,7 @@ body {
 
 #projects {
 	max-width:70%;
-	background-color:#ccf2ff;
+	background-color:#E9ECEC;
 	display: inline-block;
 	overflow: auto;
 }
@@ -135,7 +135,6 @@ body {
 #project-info-list {
 	width: 100%;
 	position: relative;
-	border: 1px dotted black;
 	min-height: 20px;
 	overflow: hidden;
 
@@ -154,7 +153,6 @@ body {
   -moz-transition: opacity 0.3s ease-in-out;
   -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
-  border: 1px dotted green;
 }
 
 .project-info.current-project {
