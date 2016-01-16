@@ -3,6 +3,6 @@ $(function() {
 
 		var clicked = $(this).attr("id");
 
-		$("#" + clicked + ".modal").modal('toggle');
+		$("#" + clicked + "-modal.modal").modal('toggle');
 	});
 });
