@@ -127,3 +127,6 @@ video {
     transform: translate3d(0, 0, 0) scale(1);
 }
 
+.foreground {
+    z-index: 2;
+}
