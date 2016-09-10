@@ -1,8 +1,8 @@
 $(function() {
-	$(".project-icon").click(function(event) {
-
-		var clicked = $(this).attr("id");
-
-		$("#" + clicked + "-modal.modal").modal('toggle');
-	});
-});
+    $('video').on('mouseenter', function() {
+        this.play();
+    })
+    $('video').on('mouseleave', function() {
+        this.pause();
+    })
+})
