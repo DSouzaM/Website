@@ -10,7 +10,7 @@
 
 body {
     line-height: 1.5;
-    font-family: "Helvetica", "Arial", sans-serif;
+    font-family: Tahoma, Geneva, sans-serif;
     font-size: 18px;
     color: #222222;
 }
@@ -28,11 +28,15 @@ h2 {
     -ms-user-select: none;
 }
 
-h4 {
-    font-size: 16px;
+h4, .badge {
+    font-size: 1.5 em;
+    font-family: "Courier New", Courier, monospace;
 }
 
-
+video {
+    width: 100%;
+    padding-top: 1em;
+}
 
 .container-fluid {
     width: 100%;
@@ -149,7 +153,7 @@ h4 {
     transform: translateY(-50%);
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 95%;
     color: #111;
     text-align: center;
     opacity: 0;

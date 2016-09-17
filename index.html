@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -32,6 +33,18 @@
     <div id="projects" class="container-fluid">
         <h2>~ PROJECTS ~</h2>
         <div id="project-icon-list">
+            <div class="project-icon" id="employment-stats">
+                <img class="img-responsive" src="Projects/EmploymentStats/icon.png" alt="Employment Stats">
+                <div class="overlay">
+                    <div class="row">
+                        <h4>Employment Stats</h4>
+                        <p>A project to learn about co-op employment rates.</p>
+                        <span class="badge">JS</span>
+                        <span class="badge">Python</span>
+                    </div>
+                </div>
+            </div>
+            
             <div class="project-icon" id="watcard-balance">
                 <img class="img-responsive" src="Projects/WatCard%20Balance/icon.png" alt="WatCard Balance">
                 <div class="overlay">
@@ -59,7 +72,7 @@
                 <div class="overlay">
                     <div class="row">
                         <h4>Sorting Algorithm Visualizer</h4>
-                        <p>A java applet which visualizes 4 major sorting algorithms</p>
+                        <p>A Java applet which visualizes 4 major sorting algorithms</p>
                         <span class="badge">Java</span>
                         <span class="badge">AWT</span>
                     </div>
@@ -97,11 +110,220 @@
                         <p>An Arduino maze game controlled with an accelerometer.</p>
                         <span class="badge">C</span>
                         <span class="badge">Arduino</span>
-
                     </div>
                 </div>
             </div>
         </div>          
     </div>
+    
+    
+    <div id="employment-stats-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Employment Statistics</h4>
+                </div>
+                <div class="modal-body">
+                    <p>I wrote this application to scrape co-op employment information and gain some insight into the overall makeup of co-op employment at UWaterloo. It uses Python to collect information and manage the database, and has Flask as a backend. The frontend uses HighCharts.</p>
+                    <div class="modal-body">
+                        <video autoplay loop>
+                            <source src="Projects/EmploymentStats/stats.mp4">
+                                Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-body">
+                        <a class="btn btn-default" href="https://github.com/DSouzaM/EmploymentStats">
+                            <img src="github-small.png" alt="GitHub icon"> GitHub
+                        </a>
+                        <a class="btn btn-default" href="/EmploymentStats">
+                           <img src="github-small.png" alt="GitHub icon"> Live demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="watcard-balance-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">WatCard Balance</h4>
+                </div>
+                <div class="modal-body">
+                    <p>WatCard Balance is a Chrome extension which helps students manage their spending. It retrieves spending logs for the user's WatCard, providing balance information and graphical representations of their spending habits. Built for EngHack 2015 using jQuery and HighCharts.</p>
+                    <div class="modal-body">
+                        <video autoplay loop>
+                            <source src="Projects/WatCard%20Balance/bargraph.mp4">
+                                Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-body">
+                        <a class="btn btn-default" href="https://github.com/dongyuzheng/watcard">
+                            <img src="github-small.png" alt="GitHub icon"> GitHub
+                        </a>
+                        <a class="btn btn-default" href="https://chrome.google.com/webstore/detail/watcard-balance/bgaekjbblaccogffopgfnffhihcjmdfm">
+                           <img src="chrome-small.png" alt="Chrome Web Store icon"> Chrome Web Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="uwflow-plus-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">UWFlow Plus</h4>
+                </div>
+                <div class="modal-body">
+                    <p>UWFlow Plus is a Chrome extension which makes it easy to get information about your courses. It pulls information from UWFlow into your course calendar, giving you information about courses at a glance.</p>
+                    
+                    <div class="modal-body">
+                        <video autoplay loop>
+                            <source src="Projects/UWFlow%20Plus/hover.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                        </video>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-default" href="https://github.com/DSouzaM/UWFlow-Plus">
+                       <img src="github-small.png" alt="GitHub icon"> GitHub
+                    </a>
+                    <a class="btn btn-default" href="https://chrome.google.com/webstore/detail/uwflow%2B/llnblgljihfinogpenmcjjleabnjkgfn">
+                       <img src="chrome-small.png" alt="Chrome Web Store icon"> Chrome Web Store
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sorting-algorithm-visualizer-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Sorting Algorithm Visualizer</h4>
+                </div>
+                <div class="modal-body">
+                    This project uses multithreading to give a live, real-time comparison of some common sorting algorithms. Created with Java.                        
+
+
+                    <video autoplay loop>
+                        <source src="Projects/Sorting%20Algorithm%20Visualizer/sorting.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                    </video>
+                    
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-default" href="https://github.com/DSouzaM/SortingVisualizer">
+                            <img src="github-small.png" alt="GitHub icon"> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="metashift-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Metashift</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Metashift is a project which looks for shifts in the "metagame" of League of Legends from one patch to another. We used a Django backend to process hundreds of thousands of matches from the Riot Games API, and then used HighCharts to display the results. Created for the second Riot Games API Challenge.</p>                    
+                    <div class="modal-body">
+                        <video autoplay loop>
+                            <source src="Projects/Metashift/graph.mp4">
+                                Your browser does not support the video tag.
+                        </video>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-default" href="https://github.com/DSouzaM/League-New-Meta">
+                            <img src="github-small.png" alt="GitHub icon"> GitHub
+                        </a>
+                        <a class="btn btn-default" href="http://meta-shift.github.io/">
+                            <img src="github-small.png" alt="GitHub icon"> Live Demo
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tetris-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Tetris</h4>
+                </div>
+                <div class="modal-body">
+                    <p>A Tetris clone I wrote in Grade 11 as my final project. I used Swing for the graphics, which are (admittedly) a little unpolished.</p>
+
+                    <div class="modal-body" style="width:30%; margin: auto;">
+                        <video autoplay loop>
+                            <source src="Projects/Tetris/tetris.mp4">
+                                Your browser does not support the video tag.
+                        </video>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                     <a class="btn btn-default" href="https://github.com/DSouzaM/TotallyOriginalBlockStacker">
+                            <img src="github-small.png" alt="GitHub icon"> GitHub
+                     </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="labyrinth-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">LAByrinth</h4>
+                </div>
+                <div class="modal-body">
+                    <p>An labyrinth game written for a microcontroller. Uses its accelerometer for control. Created as a group project for SE 101; written in C.</p>
+
+                    <div class="modal-body">
+                        <img src="Projects/LAByrinth/maze.jpg" alt="Image of LAByrinth in action" style="width:100%">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-default" href="https://github.com/DSouzaM/LAByrinth">
+                            <img src="github-small.png" alt="GitHub icon"> GitHub
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3><a href="resume.pdf">Interested? Here's my resume.</a></h3>
+    </div>
+
+    <!--Projects div-->
+    <script src="script.js">
+    </script>
 </body>
 </html>
