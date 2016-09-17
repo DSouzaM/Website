@@ -29,13 +29,15 @@ h2 {
 }
 
 h4, .badge {
-    font-size: 1.5 em;
+
     font-family: "Courier New", Courier, monospace;
 }
 
 video {
     width: 100%;
     padding-top: 1em;
+    border: 1px solid black;
+    border-radius: 3px;
 }
 
 .container-fluid {
@@ -186,6 +188,29 @@ video {
     opacity: 0.5;
 }
 
+.btn-default {
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-top: 0.1em;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1em;
+}
+
+.btn-default:hover {
+    background-color: #F5F5F5;
+    border: 1px solid black;
+}
+
+
+.modal-header, .modal-footer {
+    border: 0;
+}
+
+.modal-content {
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
 .project-icon:hover .overlay:before,
 .project-icon:hover .row,
 .project-icon:hover .row * {
@@ -217,4 +242,10 @@ video {
 #intro {
     text-align: center;
     font-size: 1.2em;
+}
+
+#resume {
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 2px solid black;
 }
