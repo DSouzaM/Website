@@ -25,7 +25,13 @@ $(function() {
     $("a.web-store").click(function(event) {
         var modalId = $(this).parents(".modal").attr("id");
         ga("send", "event", "modal-buttons", modalId, "web-store");
-    })
+    });
+    $("#interested").click(function(event) {
+        ga("send", "event", "interested", "yes");
+    });
+    $("#not-interested").click(function(event) {
+        ga("send", "event", "interested", "no");
+    });
     
     $("#interested").smoothScroll({
         afterScroll: function() {
