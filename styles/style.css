@@ -23,7 +23,7 @@ h2 {
     font-weight: bold;
 }
 
-h4, .badge, .monospace {
+h4, .badge {
     font-family: "Courier New", Courier, monospace;
 }
 
@@ -207,6 +207,14 @@ video {
 
 .modal-footer, .modal-header {
     border: 0;
+}
+
+.purple {
+    color: #7824d8;
+}
+
+.wonderwall {
+    font-size: 0.6em;
 }
 
 #email {
