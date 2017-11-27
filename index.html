@@ -35,11 +35,11 @@
     <div id="about" class="container-fluid">
         <h2 name="about">~ ABOUT ME ~</h2> 
         <div id="intro">            
-            <p>I am a student at the University of Waterloo in <span class="purple">Software Engineering</span>.</p>
-            <p>I have previous experience with <span class="purple">data engineering</span> and <span class="purple">full-stack development</span>, I am particularly interested in <span class="purple">data science</span>.</p>
-            <p>I love learning, especially about <span class="purple">math</span> and <span class="purple">computer science</span>.</p>
-            <p>Outside of programming, I like to <span class="purple">bike</span>, <span class="purple">read</span>, and play <span class="purple">guitar</span> <span class="wonderwall">(I play a mean Wonderwall)</span>.</p>
-            <p>You can contact me at <span id="email" class="purple">matt.dsouza@gmail.com</span>.</p>
+            <p>I am a student at the University of Waterloo in Software Engineering. I'm currently looking for an internship for <span class="coloured">Summer 2018</span>!</p>
+            <p>I have previous experience with <span class="coloured">data engineering</span> and <span class="coloured">full-stack development</span>.</p>
+            <p>I love learning, especially about math and computer science.</p>
+            <p>Outside of programming, I like to play volleyball, read, and play guitar <span class="wonderwall">(I play a mean Wonderwall)</span>.</p>
+            <p>You can contact me at <span id="email" class="coloured">matt.dsouza@gmail.com</span>.</p>
             <a class="btn btn-default about-btn" id="resume" target="_blank" href="res/resume.pdf">resume</a>
             <a class="btn btn-default about-btn" id="github" target="_blank" href="https://github.com/dsouzam">github</a>
         </div>
@@ -48,6 +48,16 @@
     <div id="experience" class="container-fluid">
         <h2>~ EXPERIENCE ~</h2>
         <div class="item-group">
+            <div class="item" id="Wish">
+                <img class="img-responsive" src="Experience/Wish/icon.png" alt="Wish icon">
+                <div class="overlay">
+                    <div class="row">
+                        <h4>Wish</h4>
+                        <p>Relevancy Engineering Intern, Sept. - Dec. 2017</p>
+                    </div>
+                </div>
+            </div>
+
             <div class="item" id="Shopify">
                 <img class="img-responsive" src="Experience/Shopify/icon.png" alt="Shopify icon">
                 <div class="overlay">
@@ -63,7 +73,7 @@
                 <div class="overlay">
                     <div class="row">                    
                         <h4>University of Waterloo</h4>
-                        <p>Undergraduate Research Assistant, Sept. 2016 - present</p>
+                        <p>Undergraduate Research Assistant, Sept. 2016 - Dec. 2016</p>
                     </div>
                 </div>
             </div>
@@ -83,6 +93,19 @@
     <div id="projects" class="container-fluid">
         <h2>~ PROJECTS ~</h2>
         <div id="item-group">
+            <div class="item" id="language-analysis">
+                <img class="img-responsive" src="Projects/LanguageAnalysis/icon.png" alt="Language Analysis">
+                <div class="overlay">
+                    <div class="row">
+                        <h4>Language Analysis</h4>
+                        <p>A project to identify similarities in programming languages</p>
+                        <span class="badge">Scala</span>
+                        <span class="badge">Python</span>
+                    </div>
+                </div>
+            </div>
+
+
             <div class="item" id="employment-stats">
                 <img class="img-responsive" src="Projects/EmploymentStats/icon.png" alt="Employment Stats">
                 <div class="overlay">
@@ -171,6 +194,30 @@
         <p><a id="interested" class="smoothScroll" href="#about">Interested</a>? <a id="not-interested" target="_blank" href="http://arashrai.com:5000/randomSEwebsite">Not interested</a>?</p>
     </div>
     
+    <div id="language-analysis-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Language Analysis</h4>
+                </div>
+                <div class="modal-body">
+                    <p>I wanted to build something in Scala, but didn't know what people typically used Scala for. GitHub tags repositories by the primary language, so I had the idea to try and cluster programming languages based on keywords in repositories' README's - in Scala.</p>
+                    <div class="modal-body">
+                        <img src="Projects/LanguageAnalysis/github-example.png" alt="Sample output of language clustering" style="width:100%">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-body">
+                        <a class="btn btn-default github" target="_blank" href="https://github.com/DSouzaM/LanguageAnalysis">
+                            <img src="res/github-small.png" alt="GitHub icon"> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="employment-stats-modal" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
