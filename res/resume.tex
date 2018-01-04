@@ -1,0 +1,133 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+%\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvicons{awesome}
+
+\definecolor{color0}{rgb}{0,0,0}% black
+\definecolor{color1}{rgb}{0.2,0.55,0.45}% light green
+\definecolor{color2}{rgb}{0.4,0.4,0.4}% grey
+
+\usepackage[margin=0.5in, scale=0.85]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{2.5cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\nopagenumbers{}
+
+
+
+\renewcommand*{\cventry}[7][.25em]{%
+	\cvitem[#1]{#2}{%
+		\begingroup
+			\fontsize{12pt}{12pt}
+			{\bfseries\fontsize{12pt}{12pt}#3}%
+			%\fontsize{12pt}{12pt}
+			\ifthenelse{\equal{#4}{}}{}{ | {\fontsize{12pt}{12pt}\slshape#4}}%
+			\ifthenelse{\equal{#5}{}}{}{ | {\fontsize{12pt}{12pt}#5}}%
+			\ifthenelse{\equal{#6}{}}{}{ | #6}%
+		\endgroup
+		\strut%
+		\ifx&#7&%
+		\else{\newline{}\begin{minipage}[t]{\linewidth}\small#7\end{minipage}}\fi}
+	%\vspace{-1mm}
+	}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Matt} % Your first name
+\familyname{D'Souza} % Your last name
+\title{3A Software Engineering}
+
+% All information in this block is optional, comment out any lines you don't need
+
+\email{matt.dsouza@edu.uwaterloo.ca}
+\homepage{mattdsouza.com}
+\social[github]{DSouzaM}
+
+
+%----------------------------------------------------------------------------------------
+\usepackage{fontspec}
+\usepackage{fontawesome}
+\begin{document}
+
+\makecvtitle % Print the CV title
+\vspace{-3\baselineskip}
+\section{Skills}
+\cvlistitem{Fluent in Python, Scala, Java, C++, Ruby, and SQL; familiar with HTML, CSS, and JS}
+\cvlistitem{Breadth of data engineering experience using Hive, Presto, MongoDB, Redis, and Spark}
+\cvlistitem{Experience developing infrastructure using AWS, Chef, Prometheus and Google Analytics}
+
+
+\section{Experience}
+
+\cventry{Sep--Dec 2017}{Relevancy Engineering Intern}{Wish}{Toronto, Ontario}{}{}
+\cvlistitem{Wrote Luigi pipelines and cron jobs to generate data essential to product features; improved the performance of an existing job by a factor of 40}
+\cvlistitem{Enabled consistent data changes across Redis nodes by building a system to pre-load future data}
+\cvlistitem{Implemented backup, restore, and monitoring of database nodes using AWS and Prometheus}
+\cvlistitem{Automated performance monitoring for machine learning models; resolved a crucial bug to double one model's performance}
+\vspace{3mm}
+\cventry{Jan--Apr 2017}{Data Platform Engineering Intern}{Shopify}{Toronto, Ontario}{}{}
+\cvlistitem{Maintained and improved ETL systems written in JRuby, Scala (Spark), and Python}
+\cvlistitem{Reduced overlap between incremental extraction jobs by 95\% after using Spark to identify late-arriving data from historical logs}
+\cvlistitem{Built new connectors to incrementally extract data from Google Cloud and third-party APIs}
+\cvlistitem{Improved developer efficiency by automating environment setup and project build process}
+\vspace{3mm}
+\cventry{May--Aug 2016}{Software Engineering Intern}{Veeva Systems}{Toronto, Ontario}{}{}
+\cvlistitem{Built a Spring service to asynchronously send backend metrics to Google Analytics}
+\cvlistitem{Identified problems with the product and took ownership of implementing solutions}
+\cvlistitem{Developed enhancements and fixes using Java, SQL, and HTML/CSS/JS}
+
+
+\section{Projects}
+\cventry{2017}{Language Analysis}{}{}{\href{www.github.com/DSouzaM/LanguageAnalysis}{\faGithub \ DSouzaM/LanguageAnalysis}}{}
+\cvlistitem{Built a Scala wrapper for the GitHub API to scrape data, using Slick to interface with MySQL}
+\cvlistitem{Implemented a simple tokenizer and used TextRank to extract keywords from READMEs}
+\cvlistitem{Used K-means clustering to group similar repositories and look for language trends}
+\vspace{3mm}
+\cventry{2016}{Employment Stats}{}{}{\href{www.mattdsouza.com/EmploymentStats}{\faGlobe \ mattdsouza.com/EmploymentStats}}{}
+\cvlistitem{Developed a Python scraper to incrementally extract information about co-op employment}
+\cvlistitem{Designed a web app to visualize and explore time-series data with Flask and Highcharts}
+
+\section{Education}
+\cventry{2015--2020}{Candidate for Bachelor of Software Engineering, 4.0 GPA}{University of Waterloo}{}{}{}
+\cvlistitem{Undergraduate Research Assistant (2016): Experimented with Bazel and Java 9 compatibility for an annotation-based type-checking framework}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+%\bigskip
+
+\section{Interests}
+
+\cvlistitem{Court \& beach volleyball}
+\cvlistitem{Functional programming, programming languages}
+\cvlistitem{Acoustic guitar, electric keyboard}
+
+
+\end{document}
