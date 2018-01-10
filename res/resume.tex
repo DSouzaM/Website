@@ -33,7 +33,7 @@
 \definecolor{color1}{rgb}{0.2,0.55,0.45}% light green
 \definecolor{color2}{rgb}{0.4,0.4,0.4}% grey
 
-\usepackage[margin=0.5in, scale=0.85]{geometry} % Reduce document margins
+\usepackage[margin=0.4in, scale=0.85]{geometry} % Reduce document margins
 \setlength{\hintscolumnwidth}{2.5cm} % Uncomment to change the width of the dates column
 \setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 \nopagenumbers{}
@@ -79,18 +79,18 @@
 \makecvtitle % Print the CV title
 \vspace{-3\baselineskip}
 \section{Skills}
-\cvlistitem{Fluent in Python, Scala, Java, C++, Ruby, and SQL; familiar with HTML, CSS, and JS}
-\cvlistitem{Breadth of data engineering experience using Hive, Presto, MongoDB, Redis, and Spark}
-\cvlistitem{Experience developing infrastructure using AWS, Chef, Prometheus and Google Analytics}
+\cvlistitem{Fluent in Python, Scala, Java, C++, Ruby, SQL, HTML, CSS, and JS}
+\cvlistitem{Data engineering experience using Hive, Presto, MongoDB, Redis, and Spark}
+\cvlistitem{Infrastructure experience using AWS, Chef, Prometheus and Google Analytics}
 
 
 \section{Experience}
 
 \cventry{Sep--Dec 2017}{Relevancy Engineering Intern}{Wish}{Toronto, Ontario}{}{}
-\cvlistitem{Wrote Luigi pipelines and cron jobs to generate data essential to product features; improved the performance of an existing job by a factor of 40}
-\cvlistitem{Enabled consistent data changes across Redis nodes by building a system to pre-load future data}
-\cvlistitem{Implemented backup, restore, and monitoring of database nodes using AWS and Prometheus}
-\cvlistitem{Automated performance monitoring for machine learning models; resolved a crucial bug to double one model's performance}
+\cvlistitem{Wrote Luigi pipelines and cron jobs in Python and SQL to generate data essential to product features; reduced the runtime of an existing job from over 20 hours to less than 30 minutes}
+\cvlistitem{Developed a versioning scheme for Redis to enable consistent data updates across all Redis nodes}
+\cvlistitem{Using AWS and Prometheus, implemented backup, restore, and monitoring of graph databases}
+\cvlistitem{Created a daily performance monitor for machine learning models; resolved a crucial bug to double one model's performance}
 \vspace{3mm}
 \cventry{Jan--Apr 2017}{Data Platform Engineering Intern}{Shopify}{Toronto, Ontario}{}{}
 \cvlistitem{Maintained and improved ETL systems written in JRuby, Scala (Spark), and Python}
@@ -99,18 +99,17 @@
 \cvlistitem{Improved developer efficiency by automating environment setup and project build process}
 \vspace{3mm}
 \cventry{May--Aug 2016}{Software Engineering Intern}{Veeva Systems}{Toronto, Ontario}{}{}
+\cvlistitem{Developed enhancements and fixes for single-page web app using Java, SQL, and HTML/CSS/JS}
 \cvlistitem{Built a Spring service to asynchronously send backend metrics to Google Analytics}
-\cvlistitem{Identified problems with the product and took ownership of implementing solutions}
-\cvlistitem{Developed enhancements and fixes using Java, SQL, and HTML/CSS/JS}
-
+\cvlistitem{Identified shortcomings with front-end features and took ownership of developing solutions}
 
 \section{Projects}
-\cventry{2017}{Language Analysis}{}{}{\href{www.github.com/DSouzaM/LanguageAnalysis}{\faGithub \ DSouzaM/LanguageAnalysis}}{}
+\cventry{2017}{Language Analysis}{}{}{\href{www.github.com/DSouzaM/LanguageAnalysis}{\faGithub \ DSouzaM/LanguageAnalysis}}{Comparison of GitHub projects by programming language}
 \cvlistitem{Built a Scala wrapper for the GitHub API to scrape data, using Slick to interface with MySQL}
 \cvlistitem{Implemented a simple tokenizer and used TextRank to extract keywords from READMEs}
 \cvlistitem{Used K-means clustering to group similar repositories and look for language trends}
 \vspace{3mm}
-\cventry{2016}{Employment Stats}{}{}{\href{www.mattdsouza.com/EmploymentStats}{\faGlobe \ mattdsouza.com/EmploymentStats}}{}
+\cventry{2016}{Employment Stats}{}{}{\href{www.mattdsouza.com/EmploymentStats}{\faGlobe \ mattdsouza.com/EmploymentStats}}{Visualization of UWaterloo co-op employment rates}
 \cvlistitem{Developed a Python scraper to incrementally extract information about co-op employment}
 \cvlistitem{Designed a web app to visualize and explore time-series data with Flask and Highcharts}
 
