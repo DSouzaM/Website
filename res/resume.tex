@@ -35,7 +35,7 @@
 
 \usepackage[margin=0.4in, scale=0.85]{geometry} % Reduce document margins
 \setlength{\hintscolumnwidth}{2.5cm} % Uncomment to change the width of the dates column
-\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\setlength{\makecvheadnamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 \nopagenumbers{}
 
 
@@ -62,9 +62,7 @@
 
 \firstname{Matt} % Your first name
 \familyname{D'Souza} % Your last name
-\title{3A Software Engineering}
-
-% All information in this block is optional, comment out any lines you don't need
+%\title{3A Software Engineering}
 
 \email{matt.dsouza@edu.uwaterloo.ca}
 \homepage{mattdsouza.com}
@@ -79,39 +77,38 @@
 \makecvtitle % Print the CV title
 \vspace{-3\baselineskip}
 \section{Skills}
-\cvlistitem{Fluent in Python, Scala, Java, C++, Ruby, SQL, HTML, CSS, and JS}
+\cvlistitem{Fluent in Java, Python, Scala, C++, Ruby, SQL}
 \cvlistitem{Data engineering experience using Hive, Presto, MongoDB, Redis, Hadoop, and Spark}
 \cvlistitem{Infrastructure experience using AWS, Chef, Prometheus and Google Analytics}
 
 
 \section{Experience}
-
+\cventry{May--Aug 2018}{Software Engineering Intern}{Snowflake Computing}{San Mateo, California}{}{}
+\cvlistitem{Optimized the SQL compiler to re-route large quantities of bind variables, protecting the database engine from heavy load and out of memory errors}
+\cvlistitem{Implemented compiler and client support for multiple SQL statements in a single query}
+\cvlistitem{Improved instrumentation of SQL clients to discover performance bottlenecks and user workflows}
+\vspace{3mm}
 \cventry{Sep--Dec 2017}{Relevancy Engineering Intern}{Wish}{Toronto, Ontario}{}{}
-\cvlistitem{Wrote Luigi pipelines and cron jobs in Python and SQL to generate data essential to product features; reduced the runtime of an existing job from over 20 hours to less than 30 minutes}
+\cvlistitem{Reduced the time to build product image similarity graph from 20 hours to 30 minutes}
 \cvlistitem{Developed a versioning scheme for Redis to enable consistent data updates across all Redis nodes}
-\cvlistitem{Using AWS and Prometheus, implemented backup, restore, and monitoring of graph databases}
-\cvlistitem{Created a daily performance monitor for machine learning models; resolved a crucial bug to double one model's performance}
+\cvlistitem{Implemented backup, restore, and monitoring of graph databases using AWS and Prometheus}
+\cvlistitem{Created a system to monitor changes in the performance of machine learning models}
+\cvlistitem{Wrote Luigi pipelines and cron jobs in Python and SQL to generate data for product features}
 \vspace{3mm}
 \cventry{Jan--Apr 2017}{Data Platform Engineering Intern}{Shopify}{Toronto, Ontario}{}{}
-\cvlistitem{Maintained and improved ETL systems written in JRuby, Scala, Java, and Python}
+\cvlistitem{Built and maintained connectors to extract data from Google Cloud and other third-party APIs}
 \cvlistitem{Reduced overlap between incremental extraction jobs by 95\% after using Spark to investigate late-arriving data from historical logs}
-\cvlistitem{Built new connectors to incrementally extract data from Google Cloud and third-party APIs}
-\cvlistitem{Improved developer efficiency by automating environment setup and project build process}
+\cvlistitem{Automated environment setup and project build process to improve developer efficiency}
 \vspace{3mm}
 \cventry{May--Aug 2016}{Software Engineering Intern}{Veeva Systems}{Toronto, Ontario}{}{}
-\cvlistitem{Developed enhancements and fixes for single-page web app using Java, SQL, and HTML/CSS/JS}
 \cvlistitem{Built a Spring service to asynchronously send backend metrics to Google Analytics}
-\cvlistitem{Identified shortcomings with front-end features and took ownership of developing solutions}
+\cvlistitem{Spearheaded and took ownership of rewriting of the application's breadcrumb navigation system}
 
 \section{Projects}
 \cventry{2017}{Language Analysis}{}{}{\href{www.github.com/DSouzaM/LanguageAnalysis}{\faGithub \ DSouzaM/LanguageAnalysis}}{Comparison of GitHub projects by programming language}
-\cvlistitem{Built a Scala wrapper for the GitHub API to scrape data, using Slick to interface with MySQL}
-\cvlistitem{Implemented a simple tokenizer and used TextRank to extract keywords from READMEs}
-\cvlistitem{Used K-means clustering to group similar repositories and look for language trends}
-\vspace{3mm}
-\cventry{2016}{Employment Stats}{}{}{\href{www.mattdsouza.com/EmploymentStats}{\faGlobe \ mattdsouza.com/EmploymentStats}}{Visualization of UWaterloo co-op employment rates}
-\cvlistitem{Developed a Python scraper to incrementally extract information about co-op employment}
-\cvlistitem{Designed a web app to visualize and explore time-series data with Flask and Highcharts}
+\cvlistitem{Built a Scala wrapper for the GitHub API to build a data set, using Slick to interface with MySQL}
+\cvlistitem{Implemented tokenization and keyword extraction algorithms to generate features from READMEs}
+\cvlistitem{Experimented with clustering to group repositories and look for programming language trends}
 
 \section{Education}
 \cventry{2015--2020}{Candidate for Bachelor of Software Engineering, 4.0 GPA}{University of Waterloo}{}{}{}
