@@ -75,14 +75,18 @@
 \begin{document}
 
 \makecvtitle % Print the CV title
-\vspace{-3\baselineskip}
+\vspace{-2\baselineskip}
 \section{Skills}
-\cvlistitem{Fluent in Java, Python, C++, Scala, Ruby, OCaml, SQL}
-\cvlistitem{Experience developing general-purpose and SQL compilers in both industry and personal projects}
-\cvlistitem{Interested in compilers and programming language tooling}
-\cvlistitem{Broad range of development experience in backend, data, and full-stack engineering}
+\cvlistitem{Fluent in Python, OCaml, Java, C++, Scala, Ruby, SQL}
+%\cvlistitem{Experience developing general-purpose and SQL compilers in both industry and personal projects}
+\cvlistitem{Passionate about compilers, programming languages, and databases}
+\cvlistitem{Broad range of experience in backend, infrastructure, data, and full-stack engineering}
 
 \section{Experience}
+\cventry{Jan--Apr 2019}{Software Engineering Intern}{Facebook}{Menlo Park, California}{}{}
+\cvlistitem{Built a more reliable and robust VSCode extension for Pyre, Facebook's Python typechecker}
+\cvlistitem{Drastically reducing Pyre's startup time using a more intelligent build system integration}
+\vspace{2mm}
 \cventry{May--Aug 2018}{Software Engineering Intern}{Snowflake Computing}{San Mateo, California}{}{}
 \cvlistitem{Implemented compiler and client support for multi-statement query execution}
 \cvlistitem{Optimized SQL client's handling of array binds to protect the database from degraded performance}
@@ -91,31 +95,31 @@
 \vspace{2mm}
 \cventry{Sep--Dec 2017}{Relevancy Engineering Intern}{Wish}{Toronto, Ontario}{}{}
 \cvlistitem{Reduced the time to build product image similarity graph from 20 hours to 30 minutes}
-\cvlistitem{Developed a versioning scheme for Redis to enable consistent data updates across all Redis nodes}
+\cvlistitem{Developed a versioning scheme for Redis to enable simultaneous data updates across all Redis nodes}
 \cvlistitem{Implemented backup, restore, and monitoring of graph databases using AWS and Prometheus}
 \cvlistitem{Created a system to monitor changes in the performance of machine learning models}
 \vspace{2mm}
 \cventry{Jan--Apr 2017}{Data Platform Engineering Intern}{Shopify}{Toronto, Ontario}{}{}
-\cvlistitem{Built and maintained connectors to extract data from Google Cloud and other third-party APIs}
+\cvlistitem{Built and maintained connectors to extract data from Google Cloud databases and third-party APIs}
 \cvlistitem{Reduced overlap between incremental extraction jobs by 95\% after using Spark to investigate late-arriving data from historical logs}
 \cvlistitem{Automated environment setup and project build process to improve developer efficiency}
 \vspace{2mm}
 \cventry{May--Aug 2016}{Software Engineering Intern}{Veeva Systems}{Toronto, Ontario}{}{}
-\cvlistitem{Built a Spring service to asynchronously send backend metrics to Google Analytics}
-\cvlistitem{Spearheaded and took ownership of rewriting of the application's breadcrumb navigation system}
+\cvlistitem{Built a service to asynchronously batch and publish backend metrics to Google Analytics}
+\cvlistitem{Spearheaded a rewrite of the application's breadcrumb navigation system}
 
 \section{Projects}
 \cventry{2018}{Tiger Compiler}{}{}{\href{www.github.com/DSouzaM/OCaml-Tiger}{\faGithub \ DSouzaM/OCaml-Tiger}}{OCaml implementation of the Tiger language}
-\cvlistitem{Used ocamllex and ocamlyacc to create a lexical analyzer and parser for the front-end}
-\cvlistitem{Implemented a type-checker with support for recursive and mutually-recursive data types}
+%\cvlistitem{Used ocamllex and ocamlyacc to create a lexical analyzer and parser for the front-end}
+%\cvlistitem{Implemented a type-checker with support for recursive and mutually-recursive data types}
 \vspace{2mm}
-\cventry{2017}{Language Analysis}{}{}{\href{www.github.com/DSouzaM/LanguageAnalysis}{\faGithub \ DSouzaM/LanguageAnalysis}}{Comparison of GitHub projects by programming language}
-\cvlistitem{Implemented tokenization and keyword extraction algorithms to generate features from READMEs}
-\cvlistitem{Experimented with clustering to group repositories and look for programming language trends}
+\cventry{2017}{Language Analysis}{}{}{\href{www.github.com/DSouzaM/LanguageAnalysis}{\faGithub \ DSouzaM/LanguageAnalysis}}{Investigating programming language use-cases by scraping and clustering keywords from GitHub repositories}
+%\cvlistitem{Implemented tokenization and keyword extraction algorithms to generate features from READMEs}
+%\cvlistitem{Experimented with clustering to group repositories and look for programming language trends}
 
 \section{Education}
 \cventry{2015--2020}{Candidate for Bachelor of Software Engineering, 4.0 GPA}{University of Waterloo}{}{}{}
-\cvlistitem{Undergraduate Research Assistant (2016): Experimented with Bazel and Java 9 compatibility for an annotation-based type-checking framework}
+\cvlistitem{Undergraduate Research Assistant (2016): Experimented with Bazel and Java 9 compatibility for the Checker Framework, an annotation-based type-checking framework}
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
@@ -124,9 +128,9 @@
 
 \section{Interests}
 
-\cvlistitem{Compilers, programming languages}
 \cvlistitem{Court \& beach volleyball}
 \cvlistitem{Acoustic guitar, electric keyboard}
+\cvlistitem{Programming language research}
 
 
 \end{document}
