@@ -1,6 +1,6 @@
 # Setup
 title: Matt D'Souza
-url: https://mattdsouza.com
+url: "https://mattdsouza.com"
 baseurl: "/"
 permalink: :title/
 
