@@ -1,7 +1,7 @@
 # Setup
 title: Matt D'Souza
 url: https://mattdsouza.com
-baseurl: ""
+baseurl: "/"
 permalink: :title/
 
 kramdown:
