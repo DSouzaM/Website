@@ -1,0 +1,95 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+        
+    <url>
+      <loc>http://localhost:4000/release-v-1-7-3/</loc>
+      <lastmod>2020-08-13T23:00:00-04:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+  
+        
+    <url>
+      <loc>http://localhost:4000/whats-jekyll/</loc>
+      <lastmod>2008-12-06T04:30:00-05:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+  
+  
+    
+  <url>
+    <loc>http://localhost:4000/404.html</loc>
+    
+      <lastmod>2020-09-08T17:49:16-04:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/academics/</loc>
+    
+      <lastmod>2020-09-08T17:49:16-04:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/feed.xml</loc>
+    
+      <lastmod>2020-09-08T17:49:16-04:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/</loc>
+    
+      <lastmod>2020-09-08T17:49:16-04:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/professional/</loc>
+    
+      <lastmod>2020-09-08T17:49:16-04:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/projects/</loc>
+    
+      <lastmod>2020-09-08T17:49:16-04:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/sitemap.xml</loc>
+    
+      <lastmod>2020-09-08T17:49:16-04:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/styles.css</loc>
+    
+      <lastmod>2020-09-08T17:49:16-04:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+</urlset>

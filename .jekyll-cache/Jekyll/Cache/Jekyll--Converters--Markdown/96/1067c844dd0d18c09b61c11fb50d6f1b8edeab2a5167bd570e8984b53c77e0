@@ -1,0 +1,23 @@
+I"ü<h3 id="education">Education</h3>
+<ul>
+  <li><a href="https://cs.uwaterloo.ca/current-graduate-students/overview-degree-programs/master-mathematics-computer-science">Master of Mathematics</a> (Computer Science, Thesis option), University of Waterloo (2020-)
+    <ul>
+      <li>Co-advised by <a href="https://patricklam.ca/">Patrick Lam</a> and <a href="https://the.gregor.institute/">Gregor Richards</a></li>
+    </ul>
+  </li>
+  <li><a href="https://uwaterloo.ca/future-students/programs/software-engineering">Bachelor of Software Engineering</a>, University of Waterloo (2015-2020)</li>
+</ul>
+
+<h3 id="teaching">Teaching</h3>
+<ul>
+  <li><a href="https://www.student.cs.uwaterloo.ca/~cs241e/">CS241E</a> TA (Fall 2020)</li>
+  <li><a href="https://www.student.cs.uwaterloo.ca/~cs241e/">CS241E</a> Instructional Support Assistant (Fall 2018, part-time)</li>
+</ul>
+
+<h3 id="research">Research</h3>
+<ul>
+  <li>Undergraduate RA under <a href="https://patricklam.ca/">Patrick Lam</a>; using static analysis techniques to optimize TrueType font bytecode (Summer 2019)</li>
+  <li>Undergraduate RA under <a href="https://ece.uwaterloo.ca/~wdietl/">Werner Dietl</a>; Bazel and Java 9 support for the <a href="https://checkerframework.org/">Checker Framework</a> (Fall 2016)</li>
+</ul>
+
+:ET

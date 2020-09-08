@@ -1,0 +1,20 @@
+I"s<p>No new features in this release but some important pull requests have been merged into the master branch and I want these included in the downloadable archive.</p>
+
+<p>I realize it has been quite some time since I last updated this project. I still have plans and ideas for improving the design and functionality but COVID-19 came along and changed my priorities.</p>
+
+<p>Watch this space for more updates soon and thank you kindly for your continued interest.</p>
+
+<p><a href="https://github.com/essentialenemy/noir/pull/5">#5</a>: Improved display of post header when multiple categories by <a href="https://github.com/wblakecaldwell">wblakecaldwell</a></p>
+
+<p><a href="https://github.com/essentialenemy/noir/pull/6">#6</a>: RSS readers are not finding the feed for the site by <a href="https://github.com/grahamefendle">grahamefendle</a></p>
+
+<p><a href="https://github.com/essentialenemy/noir/pull/7">#7</a>: Bumps kramdown from 2.1.0 to 2.3.0 in order to fix a security vulnerability.</p>
+
+<hr />
+
+<p>Noir is developed using and hosted with GitHub. You can head on over to the <a href="https://github.com/essentialenemy/noir">repository</a> to download it, report any bugs, and to request features.</p>
+
+<p>If you prefer to install the gem version of the theme you can do so <a href="https://rubygems.org/gems/noir-for-jekyll">here</a>.</p>
+
+<p>Thank you for your interest in Noir!</p>
+:ET

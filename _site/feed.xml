@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Matt D'Souza</title>
+ <link href="http://localhost:4000/feed.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2020-09-08T17:49:16-04:00</updated>
+ <id>http://localhost:4000/</id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Release: v1.7.3</title>
+   <link href="http://localhost:4000/release-v-1-7-3/"/>
+   <updated>2020-08-13T23:00:00-04:00</updated>
+   <id>http://localhost:4000/release-v-1-7-3</id>
+   <content type="html">&lt;p&gt;No new features in this release but some important pull requests have been merged into the master branch and I want these included in the downloadable archive.&lt;/p&gt;
+
+&lt;p&gt;I realize it has been quite some time since I last updated this project. I still have plans and ideas for improving the design and functionality but COVID-19 came along and changed my priorities.&lt;/p&gt;
+
+&lt;p&gt;Watch this space for more updates soon and thank you kindly for your continued interest.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/essentialenemy/noir/pull/5&quot;&gt;#5&lt;/a&gt;: Improved display of post header when multiple categories by &lt;a href=&quot;https://github.com/wblakecaldwell&quot;&gt;wblakecaldwell&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/essentialenemy/noir/pull/6&quot;&gt;#6&lt;/a&gt;: RSS readers are not finding the feed for the site by &lt;a href=&quot;https://github.com/grahamefendle&quot;&gt;grahamefendle&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/essentialenemy/noir/pull/7&quot;&gt;#7&lt;/a&gt;: Bumps kramdown from 2.1.0 to 2.3.0 in order to fix a security vulnerability.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Noir is developed using and hosted with GitHub. You can head on over to the &lt;a href=&quot;https://github.com/essentialenemy/noir&quot;&gt;repository&lt;/a&gt; to download it, report any bugs, and to request features.&lt;/p&gt;
+
+&lt;p&gt;If you prefer to install the gem version of the theme you can do so &lt;a href=&quot;https://rubygems.org/gems/noir-for-jekyll&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thank you for your interest in Noir!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>What's Jekyll?</title>
+   <link href="http://localhost:4000/whats-jekyll/"/>
+   <updated>2008-12-06T04:30:00-05:00</updated>
+   <id>http://localhost:4000/whats-jekyll</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/jekyll/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s an immensely useful tool. Find out more by &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
