@@ -5,7 +5,7 @@ title: Academics
 ---
 ### Education
 - [Master of Mathematics][MMath]{:target="_blank"} (Computer Science, Thesis option), University of Waterloo (2020-)
-  - Co-advised by [Patrick Lam][plam]{:target="_blank"} and [Gregor Richards][gregor]
+  - Co-advised by [Patrick Lam][plam]{:target="_blank"} and [Gregor Richards][gregor]{:target="_blank"}
 - [Bachelor of Software Engineering][BSE]{:target="_blank"}, University of Waterloo (2015-2020)
 
 ### Teaching
