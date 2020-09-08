@@ -11,7 +11,7 @@ title: Projects
     <img src="{{project.logo}}">
     <p><i>{{project.name}}</i>: {{project.short}}</p>
   </div>
-  <br>{{project.details}}
+  {{project.details}}
   {% if project.demo %}
   <video controls muted loop>
     <source src="{{project.demo}}">
@@ -19,5 +19,6 @@ title: Projects
   </video>
   {% endif %}
   {% for link in project.links %}{% if forloop.first == false %}, {% endif %}<a href="{{link[1]}}" target="blank_">{{link[0]}}</a>{% endfor %}
+  <br>
 </div>
 {% endfor %}
