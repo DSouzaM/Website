@@ -1,0 +1,96 @@
+---
+# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+# only main files contain this front matter, not partials.
+---
+// Designed, built, and released under MIT license by @mdo.
+// Learn more at https://github.com/poole/poole
+// Alterations to CSS to make the design dark mode friendly by @essentialenemy.
+// View the repo at https://github.com/essentialenemy/noir
+
+@import "variables";
+@import "base";
+@import "type";
+@import "syntax";
+@import "code";
+@import "layout";
+@import "masthead";
+@import "posts";
+@import "pagination";
+@import "message";
+@import "buttons";
+
+/* Large screens */
+@media (min-width: 630px) {
+  /* only for screens wider or equal to 630 pixels */
+  /* code from https://www.thesitewizard.com/css/design-2-column-layout.shtml */
+  .contents {
+    display: flex;
+
+    /* Assumption: 2-column layout */
+    > * {
+      padding-left: 1em;
+      padding-right: 1em;
+      float: left;
+    }
+
+    #photo {
+      max-height: 75vh;
+      max-width: 50%;
+      align-self: start;
+    }
+  }
+}
+/* Small screens */
+@media not all and (min-width: 630px) {
+  .contents {
+    * {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    #photo {
+      max-height: 50vh;
+    }
+  }
+}
+
+
+footer {
+  margin-top: 4em;
+  clear: both;
+}
+
+.container {
+  max-width: initial; /* noir theme restricts width; remove this */
+}
+
+.position, .project {
+  margin: 1em;
+
+  img {
+    max-width: 2em;
+    margin-right: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.project {
+  margin: 1em;
+
+  .project-header {
+    display: flex
+  }
+
+  img {
+    max-width: 5em;
+  }
+
+  video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    margin: 1em;
+  }
+}

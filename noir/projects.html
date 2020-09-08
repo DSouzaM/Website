@@ -1,0 +1,23 @@
+---
+layout: page
+title: Projects
+---
+<p>
+  I haven't had much time to work on projects recently, but these are some of the projects I've worked on in the past.
+  A lot of my projects come about from playing around, wanting to simplify a workflow, or wrangling data into meaningful information (or at least trying to).</p>
+{% for project in site.data.projects %}
+<div class="project">
+  <div class="project-header">
+    <img src="{{project.logo}}">
+    <p><i>{{project.name}}</i>: {{project.short}}</p>
+  </div>
+  <br>{{project.details}}
+  {% if project.demo %}
+  <video controls muted loop>
+    <source src="{{project.demo}}">
+        Your browser does not support the video tag.
+  </video>
+  {% endif %}
+  {% for link in project.links %}{% if forloop.first == false %}, {% endif %}<a href="{{link[1]}}">{{link[0]}}</a>{% endfor %}
+</div>
+{% endfor %}

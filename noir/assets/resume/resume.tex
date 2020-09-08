@@ -1,0 +1,148 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+%\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvicons{awesome}
+
+\definecolor{color0}{rgb}{0,0,0}% black
+\definecolor{color1}{rgb}{0.2,0.55,0.45}% light green
+\definecolor{color2}{rgb}{0.4,0.4,0.4}% grey
+
+\usepackage[margin=0.4in, scale=0.85]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{2.5cm} % Uncomment to change the width of the dates column
+\setlength{\makecvheadnamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\nopagenumbers{}
+
+
+
+\renewcommand*{\cventry}[7][.25em]{%
+	\cvitem[#1]{#2}{%
+		\begingroup
+			\fontsize{12pt}{12pt}
+			{\bfseries\fontsize{12pt}{12pt}#3}%
+			%\fontsize{12pt}{12pt}
+			\ifthenelse{\equal{#4}{}}{}{ | {\fontsize{12pt}{12pt}\slshape#4}}%
+			\ifthenelse{\equal{#5}{}}{}{ | {\fontsize{12pt}{12pt}#5}}%
+			\ifthenelse{\equal{#6}{}}{}{ | #6}%
+		\endgroup
+		\strut%
+		\ifx&#7&%
+		\else{\newline{}\begin{minipage}[t]{\linewidth}\small#7\end{minipage}}\fi}
+	%\vspace{-1mm}
+	}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Matt} % Your first name
+\familyname{D'Souza} % Your last name
+%\title{3A Software Engineering}
+
+\email{matt.dsouza@gmail.com}
+\homepage{mattdsouza.com}
+\social[github]{DSouzaM}
+
+
+%----------------------------------------------------------------------------------------
+\usepackage{fontspec}
+\usepackage{fontawesome}
+\begin{document}
+
+\makecvtitle % Print the CV title
+\vspace{-2\baselineskip}
+\section{Skills}
+\cvlistitem{Fluent in Python, OCaml, Java, C++, Scala, Ruby, SQL}
+%\cvlistitem{Experience developing general-purpose and SQL compilers in both industry and personal projects}
+\cvlistitem{Passionate about compilers, programming languages, and databases}
+\cvlistitem{Broad range of experience in backend, infrastructure, data, and full-stack engineering}
+
+\section{Work Experience}
+ \cventry{Jun--Aug 2020}{Software Engineering Intern}{Facebook}{Seattle, Washington (Remote)}{}{}
+ \cvlistitem{Developed a best-effort translator between Presto and Spark SQL to facilitate pipeline migration}
+ \cvlistitem{Fully translated over 3000 memory-intensive Presto pipelines to Spark}
+ \cvlistitem{Built a dashboard to track progress and prioritize translation efforts}
+ \vspace{2mm}
+\cventry{Sep--Dec 2019}{Software Engineering Intern}{Facebook}{New York City, New York}{}{}
+\cvlistitem{Designed a Python API for programmatically decoding and inspecting Android DEX files}
+\cvlistitem{Built a utility to generate semantic and structural diffs between Android APK files}
+\cvlistitem{Profiled and optimized diffing utility, reducing execution time by a factor of 90}
+\vspace{2mm}
+\cventry{Jan--Apr 2019}{Software Engineering Intern}{Facebook}{Menlo Park, California}{}{}
+\cvlistitem{Built a more reliable and robust VSCode extension for Pyre, Facebook's Python typechecker}
+\cvlistitem{Reduced Pyre's startup time by as much as a factor of 8 using a more efficient build process}
+%\cvlistitem{Improved support for incremental changes, allowing Pyre to process new \& changed files incrementally}
+\vspace{2mm}
+\cventry{May--Aug 2018}{Software Engineering Intern}{Snowflake Computing}{San Mateo, California}{}{}
+\cvlistitem{Implemented compiler and client support for multi-statement query execution}
+\cvlistitem{Optimized SQL client's handling of array binds to protect the database from degraded performance}
+%\cvlistitem{Created a UDF to automatically parse and infer the file format and schema of CSV files}
+%\cvlistitem{Improved SQL client telemetry to support real-time client monitoring and troubleshooting}
+\vspace{2mm}
+\cventry{Sep--Dec 2017}{Relevancy Engineering Intern}{Wish}{Toronto, Ontario}{}{}
+\cvlistitem{Reduced the time to build product image similarity graph from 20 hours to 30 minutes}
+\cvlistitem{Developed a versioning scheme for Redis to enable simultaneous data updates across all Redis nodes}
+%\cvlistitem{Implemented backup, restore, and monitoring of graph databases using AWS and Prometheus}
+%\cvlistitem{Created a system to monitor changes in the performance of machine learning models}
+\vspace{2mm}
+\cventry{Jan--Apr 2017}{Data Platform Engineering Intern}{Shopify}{Toronto, Ontario}{}{}
+%\cvlistitem{Built and maintained pipelines to extract data from Google Cloud databases and third-party APIs}
+%\cvlistitem{Reduced overlap between incremental extraction jobs by 95\% after using Spark to investigate late-arriving data from historical logs}
+%\cvlistitem{Automated environment setup and project build process to improve developer efficiency}
+\vspace{2mm}
+\cventry{May--Aug 2016}{Software Engineering Intern}{Veeva Systems}{Toronto, Ontario}{}{}
+%\section{Projects}
+%\cventry{2018}{Tiger Compiler}{}{}{\href{www.github.com/DSouzaM/OCaml-Tiger}{\faGithub \ DSouzaM/OCaml-Tiger}}{OCaml implementation of the Tiger language}
+%\cvlistitem{Used ocamllex and ocamlyacc to create a lexical analyzer and parser for the front-end}
+%\cvlistitem{Implemented a type-checker with support for recursive and mutually-recursive data types}
+%\vspace{2mm}
+%\cventry{2017}{Language Analysis}{}{}{\href{www.github.com/DSouzaM/LanguageAnalysis}{\faGithub \ DSouzaM/LanguageAnalysis}}{Investigating programming language use-cases by scraping and clustering keywords from GitHub repositories}
+%\cvlistitem{Implemented tokenization and keyword extraction algorithms to generate features from READMEs}
+%\cvlistitem{Experimented with clustering to group repositories and look for programming language trends}
+
+\section{Education}
+\cventry{2020--}{Candidate for Master of Mathematics (Computer Science)}{University of Waterloo}{}{}{}
+
+\cventry{2015--2020}{Bachelor of Software Engineering}{University of Waterloo}{}{}{}
+\cvlistitem{Undergraduate Research Assistant (2016): Bazel and Java 9 integration for the \href{https://checkerframework.org/}{Checker Framework}}
+\cvlistitem{Part-time ISA (2018): Instructional support for CS 241E, an intro compilers class}
+\cvlistitem{Undergraduate Research Assistant (2019): Using static analysis to optimize TrueType font bytecode}
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+%\bigskip
+
+\section{Interests}
+
+\cvlistitem{Court \& beach volleyball}
+\cvlistitem{Acoustic guitar, electric keyboard}
+\cvlistitem{Crosswords}
+%\cvlistitem{Programming language design and implementation}
+
+
+\end{document}

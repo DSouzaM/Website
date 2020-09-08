@@ -1,0 +1,56 @@
+- name: Language Analysis
+  logo: /assets/projects/la-icon.png
+  short: A project to identify similarities in programming languages
+  details: >
+    I wanted to build something in Scala, but didn't know what people typically used Scala for.
+    GitHub tags repositories by the primary language, so I had the idea to try and cluster programming languages based on keywords in repositories' README's - in Scala.
+  demo:
+  links:
+    GitHub: https://github.com/DSouzaM/LanguageAnalysis
+
+- name: Employment Stats
+  logo: /assets/projects/es-icon.png
+  short: A project to explore co-op employment rates
+  details: >
+    Co-op employment information is available through a (somewhat limited) web interface.
+    I wanted something a little more useful for understanding the data, so I built a tool to scrape employment information,
+    and created a UI to explore the data.
+  demo: /assets/projects/es-demo.mp4
+  links:
+    GitHub: https://github.com/DSouzaM/EmploymentStats
+    Live demo: /EmploymentStats
+
+- name: Metashift
+  logo: /assets/projects/metashift-icon.png
+  short: A project to analyze the impact a major League of Legends patch had on the way the game was played.
+  details: >
+    Riot Games held an API Challenge looking for projects which made use of their new API.
+    They had recently released a pretty significant patch which we suspected would change the "meta" of the game, and sought out to look for those changes.
+    We processed hundreds of thousands of matches from the API and aggregated the results for exploration in a frontend.
+  demo: /assets/projects/ms-demo.mp4
+  links:
+    GitHub: https://github.com/DSouzaM/League-New-Meta
+    Live demo: http://meta-shift.github.io/
+
+- name: WatCard Balance
+  logo: /assets/projects/wb-icon.png
+  short: A Chrome extension which provides easy access and visualization of WatCard account usage
+  details: >
+    I got tired of wondering how much money I had on my card and worrying about my spending.
+    I created this extension to make balance and transaction information readily accessible and easy to view.
+    Built for EngHack 2015.
+  demo: /assets/projects/wb-demo.mp4
+  links:
+    GitHub: https://github.com/dongyuzheng/watcard
+    Chrome Web Store: https://chrome.google.com/webstore/detail/watcard-balance/bgaekjbblaccogffopgfnffhihcjmdfm
+
+- name: UWFlow Plus
+  logo: /assets/projects/ufp-icon.png
+  short: A Chrome extension to integrate UWFlow information directly into the course calendar
+  details: >
+    UWFlow is a website which aggregates student reviews of courses at UW.
+    I found it tedious to keep flipping back between the official UW course calendar and UWFlow, so I created a Chrome extension which made that info accessible within the course calendar.
+  demo: /assets/projects/ufp-demo.mp4
+  links:
+    GitHub: https://github.com/DSouzaM/UWFlow-Plus
+    Chrome Web Store: https://chrome.google.com/webstore/detail/uwflow%2B/llnblgljihfinogpenmcjjleabnjkgfn

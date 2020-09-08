@@ -1,0 +1,60 @@
+- position: Software Engineering Intern
+  logo: /assets/fb-icon.png
+  company: Facebook
+  location: Seattle, WA (Remote)
+  period: June-August 2020
+  description: >
+    I worked on the Unified Programming Model team, where I built a best-effort translator between Presto and Spark SQL.
+
+- position: Software Engineering Intern
+  logo: /assets/fb-icon.png
+  company: Facebook
+  location: New York, NY
+  period: September-December 2019
+  description: >
+    I worked on the Mobile Product Runtimes team, where I built utilities to understand the output of various transformations/optimizations Facebook applies to Android APK and DEX files.
+    In particular, I built and optimized a tool to generate semantic diffs between APKs.
+
+- position: Software Engineering Intern
+  logo: /assets/fb-icon.png
+  company: Facebook
+  location: Menlo Park, CA
+  period: January-April 2019
+  description: >
+    I worked on Pyre, Facebook's open-source type checker for Python 3, where I improved IDE integration and designed a more efficient build process for Python projects built with Buck. 
+
+- position: Software Engineering Intern
+  logo: /assets/snowflake-icon.png
+  company: Snowflake Computing
+  location: San Mateo, CA
+  period: May-August 2018
+  description: >
+    I worked on the Data Platform team, which was responsible for developing the client drivers and connectors used by BI, ETL, and other tools to connect to the Snowflake database.
+    I implemented features spanning the backend and client drivers, including multi-statement support and a safer way to handle large array binds.
+
+- position: Relevancy Engineering Intern
+  logo: /assets/wish-icon.png
+  company: Wish
+  location: Toronto, ON
+  period: September-December 2017
+  description: >
+    I worked on the Relevancy Engineering team in Toronto.
+    In this role, I worked on infrastructure to support backup, restore, and synchronization of certain in-memory (Redis) and graph (TigerGraph) databases.
+    I also developed data pipelines used by Wish's recommendation system.
+
+- position: Data Platform Engineering Intern
+  logo: /assets/shopify-icon.png
+  company: Shopify
+  location: Toronto, ON
+  period: January-April 2017
+  description: >
+    I worked on Shopify's Data Acquisition team, developing systems to extract and consolidate raw data from numerous sources into our data lake.
+
+- position: Software Engineering Intern
+  logo: /assets/veeva-icon.png
+  company: Veeva Systems
+  location: Toronto, ON
+  period: May-August 2016
+  description: >
+    I worked on the full stack of Veeva's Network Customer Master product.
+    A significant portion of my work was in implementing usage tracking throughout the front- and back-end to identify user behaviour and performance.
