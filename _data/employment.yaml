@@ -1,3 +1,11 @@
+- position: Research Intern
+  logo: /assets/graalvm-icon.png
+  company: Oracle Labs (GraalVM)
+  location: Zurich, Switzerland (Remote)
+  period: May-August 2021
+  description: >
+    I developed an on-stack replacement (OSR) API for Truffle bytecode interpreters.
+
 - position: Software Engineering Intern
   logo: /assets/fb-icon.png
   company: Facebook
@@ -21,7 +29,7 @@
   location: Menlo Park, CA
   period: January-April 2019
   description: >
-    I worked on Pyre, Facebook's open-source type checker for Python 3, where I improved IDE integration and designed a more efficient build process for Python projects built with Buck. 
+    I worked on Pyre, Facebook's open-source type checker for Python 3, where I improved IDE integration and designed a more efficient build process for Python projects built with Buck.
 
 - position: Software Engineering Intern
   logo: /assets/snowflake-icon.png

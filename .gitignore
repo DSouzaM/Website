@@ -1,7 +1,11 @@
-*/*.aux
-*/*.log
-*/*.out
-*/*.synctex.gz
+**/*.aux
+**/*.log
+**/*.out
+**/*.synctex.gz
+**/*.fdb_latexmk
+**/*.fls
+**/*.xdv
 **/.DS_Store
 **/.jekyll-cache
 **/_site
+.vscode
