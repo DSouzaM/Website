@@ -5,8 +5,11 @@ title: Academics
 ---
 ### Education
 - [Master of Mathematics][MMath]{:target="_blank"} (Computer Science, Thesis option), University of Waterloo (2020-)
-  - Co-advised by [Patrick Lam][plam]{:target="_blank"} and [Gregor Richards][gregor]{:target="_blank"}
+  - Advised by [Ondřej Lhoták][ondrej]{:target="_blank"}; specializing in language implementation on Truffle+Graal.
 - [Bachelor of Software Engineering][BSE]{:target="_blank"}, University of Waterloo (2015-2020)
+
+### Publications
+- D'Souza M., Duboscq G., [Lightweight On-Stack Replacement in Languages with Unstructured Loops][osr]{:target="_blank"}, VMIL 2021, October 2021.
 
 ### Teaching
 - [CS241E]{:target="_blank"} TA (Fall 2021)
@@ -14,7 +17,7 @@ title: Academics
 - [CS241E]{:target="_blank"} TA (Fall 2020)
 - [CS241E]{:target="_blank"} Instructional Support Assistant (Fall 2018, part-time)
 
-### Research
+### Past Research
 - Undergraduate RA under [Patrick Lam][plam]{:target="_blank"}; using static analysis techniques to optimize TrueType font bytecode (Summer 2019)
 - Undergraduate RA under [Werner Dietl][wdietl]{:target="_blank"}; Bazel and Java 9 support for the [Checker Framework]{:target="_blank"} (Fall 2016)
 
@@ -24,6 +27,7 @@ title: Academics
 [CS241E]: https://www.student.cs.uwaterloo.ca/~cs241e/
 [CS241]: https://www.student.cs.uwaterloo.ca/~cs241/
 [plam]: https://patricklam.ca/
-[gregor]: https://the.gregor.institute/
 [wdietl]: https://ece.uwaterloo.ca/~wdietl/
+[ondrej]: https://plg.uwaterloo.ca/~olhotak/
 [Checker Framework]: https://checkerframework.org/
+[osr]: https://dl.acm.org/doi/abs/10.1145/3486606.3486782
