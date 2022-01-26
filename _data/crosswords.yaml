@@ -1,7 +1,14 @@
 - name: Prime Times
   file: "/assets/crosswords/Prime Times.puz"
   date: 12/31/2021
+  anchor: primetimes
 
 - name: Living on the Grid
   file: "/assets/crosswords/Living on the Grid.puz"
   date: 01/14/2021
+  anchor: living
+
+- name: There's No Right Answer
+  file: "/assets/crosswords/There's No Right Answer.puz"
+  date: 01/18/2021
+  anchor: norightanswer

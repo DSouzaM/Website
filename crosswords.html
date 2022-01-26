@@ -1,0 +1,16 @@
+---
+layout: page
+title: Crosswords
+---
+
+<p>
+Over the past couple years I've gotten pretty into crosswords. I thought it'd be fun to try making my own.
+You can download the .puz files and open them in your crossword app of choice (<a href="https://www.crosswordnexus.com/solve/">here's a web interface</a>).
+This is a new hobby for me, so I'd love to hear any feedback you have!
+</p>
+
+<ul>
+{% for puzzle in site.data.crosswords %}
+   <li><a id="{{puzzle.anchor}}" href="{{puzzle.file}}">{{puzzle.name}}</a> ({{puzzle.date}})</li>
+{% endfor %}
+</ul>
