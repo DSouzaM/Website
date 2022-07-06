@@ -5,17 +5,15 @@ title: Academics
 ---
 ### Education
 - [Master of Mathematics][MMath]{:target="_blank"} (Computer Science, Thesis option), University of Waterloo (2020-)
-  - Advised by [Ondřej Lhoták][ondrej]{:target="_blank"}; specializing in language implementation on Truffle+Graal.
+  - Advised by [Ondřej Lhoták][ondrej]{:target="_blank"}. Implementing a Scala interpreter on Truffle+Graal which reifies type parameters, enabling specialized (box-free)generic code.
 - [Bachelor of Software Engineering][BSE]{:target="_blank"}, University of Waterloo (2015-2020)
 
 ### Publications
 - D'Souza M., Duboscq G., [Lightweight On-Stack Replacement in Languages with Unstructured Loops][osr]{:target="_blank"}, VMIL 2021, October 2021.
 
 ### Teaching
-- [CS241E]{:target="_blank"} TA (Fall 2021)
-- [CS241]{:target="_blank"} IA (Winter 2021)
-- [CS241E]{:target="_blank"} TA (Fall 2020)
-- [CS241E]{:target="_blank"} Instructional Support Assistant (Fall 2018, part-time)
+- [CS241E]{:target="_blank"} TA (F2021, F2020), ISA (F2018)
+- [CS241]{:target="_blank"} IA (S2022, W2022, W2021)
 
 ### Past Research
 - Undergraduate RA under [Patrick Lam][plam]{:target="_blank"}; using static analysis techniques to optimize TrueType font bytecode (Summer 2019)
