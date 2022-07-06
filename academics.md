@@ -5,7 +5,7 @@ title: Academics
 ---
 ### Education
 - [Master of Mathematics][MMath]{:target="_blank"} (Computer Science, Thesis option), University of Waterloo (2020-)
-  - Advised by [Ondřej Lhoták][ondrej]{:target="_blank"}. Implementing a Scala interpreter on Truffle+Graal which reifies type parameters, enabling specialized (box-free)generic code.
+  - Advised by [Ondřej Lhoták][ondrej]{:target="_blank"}. Implementing a Scala interpreter on Truffle+Graal which reifies type parameters, enabling specialized (box-free) generic code.
 - [Bachelor of Software Engineering][BSE]{:target="_blank"}, University of Waterloo (2015-2020)
 
 ### Publications
